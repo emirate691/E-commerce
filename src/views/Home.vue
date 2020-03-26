@@ -6,17 +6,17 @@
         <b-list-group-item id="menu-1">
         <b-col cols="4">
         <ul>
-        <li v-for="item in stock" :key="item.id">{{ item.categoryName }}</li>
+        <li v-for="item in stock :key="item.id">{{ item.categoryName }}</li>
         </ul>
         </b-col>
-        </b-list-group-item>
+        </b-list-group-item
     </b-list-group>
      
       <b-row>
       <b-col v-for="product in products"  :key="product.id" cols="3">
       <b-card 
     
-  
+  edbdjsabdasbmabahddhaa
     :img-src ="product.imageLink"
     img-alt="Image"
     img-top
