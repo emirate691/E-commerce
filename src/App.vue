@@ -1,12 +1,9 @@
 <template>
   <div id="app">
-    <div id="nav">
     <Header />
-      <router-link to="/"></router-link> |
-      <router-link to="/about"></router-link>
-    </div>
-  
+    <div class="custom-wrapper">
     <router-view/>
+    </div>
     
 <div id="Footer">
       <Footer />
@@ -29,5 +26,7 @@ export default {
 }
 </script>
 <style>
-
+.custom-wrapper {
+  margin-top: 62px;
+}
 </style>
